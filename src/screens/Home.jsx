@@ -6,7 +6,7 @@ function Home() {
     return (
         <div className='home'>
             <div className='home_container'>
-                <img className='home_image' src='https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg' alt='Banner' />
+                <img className='home_image' src='https://m.media-amazon.com/images/I/61DUO0NqyyL._SX3000_.jpg' alt='Banner' />
                 <div className='home_row'>
                     <Product
                      title='Shelf Liner for Kitchen Cabinets, Non-Adhesive Drawer Liner,Refrigerator Liners, Reusable Cabinet Liner Drawer Mat Moisture-Proof Dust Anti-Slip Kitchen Table Pad (17.7 x47.2in, Bubble Ball)'
