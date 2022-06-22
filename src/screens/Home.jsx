@@ -2,8 +2,9 @@ import React from 'react';
 import './Home.css';
 import Product from '../components/Product';
 
-function Home() {
+const Home = () => {
     return (
+        <>
         <div className='home'>
             <div className='home_container'>
                 <img className='home_image' src='https://m.media-amazon.com/images/I/61DUO0NqyyL._SX3000_.jpg' alt='Banner' />
@@ -43,15 +44,16 @@ function Home() {
                 </div>
                 <div className='home_row'>
                     <Product 
-                        title='WalkingPad Under Desk Treadmill, Smart Folding Treadmill with Adaptive Speed Technology, Maintains Preferred Pace, Foldable Treadmill for Home and Office, Stores Away Easily, A1Pro Black'
+                        title='SAMSUNG 49" Odyssey Neo G9 G95NA Gaming Monitor, 4K UHD Mini LED Display, Curved Screen, 240Hz, 1ms, G-Sync and FreeSync Premium Pro, LS49AG952NNXZA, Black'
                         price={44442.59}
-                        image='https://m.media-amazon.com/images/I/61G+P0QOVpL._AC_SX679_.jpg'
-                        rating={3}
+                        image='https://m.media-amazon.com/images/I/81gf+wgrcfS._AC_SX679_.jpg'
+                        rating={5}
 
                     />
                 </div>
             </div>
         </div>
+        </>
     );
 }
 
