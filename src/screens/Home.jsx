@@ -35,7 +35,7 @@ const Home = () => {
                         image='https://m.media-amazon.com/images/I/71lKmUUztfL._AC_SX679_.jpg'
                         rating={3}
                     />
-                    <Product 
+                    <Product
                         title='Sennheiser HD 560 S Over-The-Ear Audiophile Headphones - Neutral Frequency Response, E.A.R. Technology for Wide Sound Field, Open-Back Earcups, Detachable Cable, (Black) (HD 560S)'
                         price={13932.60}
                         image='https://m.media-amazon.com/images/I/8182xOzfS2L._AC_SX679_.jpg'
